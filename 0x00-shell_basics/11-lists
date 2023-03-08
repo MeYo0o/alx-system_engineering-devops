@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lan ./ ../ /boot | grep -E '^total' -A 1; ls -lan ./ ../ /boot | grep -v -E '^total'
+ls -alR "$PWD" ../ /boot/

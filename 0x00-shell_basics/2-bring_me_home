@@ -1,2 +1,3 @@
 #!/bin/bash
-cd ~
+cd $(grep $(whoami) /etc/passwd | cut -d: -f6)
+
